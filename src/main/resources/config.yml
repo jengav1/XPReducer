@@ -1,0 +1,3 @@
+# Multiplier for all XP gained
+# 1.0 = 100%, 0.7 = 70% (reduce by 30%)
+xp-multiplier: 0.7

@@ -1,0 +1,17 @@
+name: XPReducer
+main: com.example.xpreducer.XPReducerPlugin
+version: 1.0
+api-version: "1.21"
+author: Hoang
+description: Reduce player XP globally by 30%
+
+commands:
+  xpreload:
+    description: Reload XPReducer configuration
+    usage: /xpreload
+    permission: xpreducer.reload
+
+permissions:
+  xpreducer.reload:
+    description: Allows reloading XPReducer config
+    default: op
